@@ -21,7 +21,7 @@ const TaskList = () => {
   return (
     <div className={`m-0 py-10 px-10 ${filteredTasks.length === 0 ? "h-screen" : [1, 2, 3].includes(filteredTasks.length) ? "h-full" : "h-full"} bg-darkPurple`}>
       <h1 className="text-3xl font-bold text-center mb-6 bg-lightPurple p-4 rounded-lg text-darkRose w-full">
-        To-Do List
+        ToDo List
       </h1>
       <TaskForm />
       <div className="flex gap-4 flex-col lg:flex-row md:flex-row sm:flex-row justify-center items-center self-center mb-4 bg-lightPurple p-4 mt-auto rounded-lg w-full">
